@@ -157,8 +157,8 @@ loginForm.addEventListener("submit", (e) => {
               })
               document.addEventListener("keyup", event => {
 
-                let num =(Math.random() * 5)
-                if (event.key === "ArrowUp") {     
+                let num =(Math.random() * 100)
+                if (event.key === "ArrowUp" && num < 41) {     
               
                     let pokemonId = Math.floor((Math.random() * 84) + 1)
               
@@ -191,8 +191,8 @@ loginForm.addEventListener("submit", (e) => {
               
               document.addEventListener("keyup", event => {
 
-                let num =(Math.random() * 5)
-                if (event.key === "ArrowRight") {     
+                let num =(Math.random() * 100)
+                if (event.key === "ArrowRight" && num < 41) {     
               
                     let pokemonId = Math.floor((Math.random() * 84) + 1)
               
@@ -226,8 +226,8 @@ loginForm.addEventListener("submit", (e) => {
 
               document.addEventListener("keyup", event => {
 
-                let num =(Math.random() * 5)
-                if (event.key === "ArrowLeft") {     
+                let num =(Math.random() * 100)
+                if (event.key === "ArrowLeft" && num < 41) {     
               
                     let pokemonId = Math.floor((Math.random() * 84) + 1)
               
@@ -264,8 +264,8 @@ loginForm.addEventListener("submit", (e) => {
 
               document.addEventListener("keyup", event => {
 
-                let num =(Math.random() * 5)
-                if (event.key === "ArrowDown") {     
+                let num =(Math.random() * 100)
+                if (event.key === "ArrowDown" && num < 41) {     
               
                     let pokemonId = Math.floor((Math.random() * 84) + 1)
               
