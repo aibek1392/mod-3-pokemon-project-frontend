@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Dodger! (Beta)</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <!-- /Add music -->
+  <iframe style="width:0;height:0;border:0; border:none;" allow="autoplay;" src="https://www.zedge.net/ringtone/51774fde-fbd9-43d2-a6ec-d295efe3eb77"></iframe>
+
+</head>
+<body>
+  
+
+
+    <div class="clearfix">
+        <div id="game">
+            <div id="dodger" style="bottom: 0px; left: 180px;">
+            </div>
+
+            
+        </div>
+        <div class="box" style="background-color:#ccc">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+              <div id="id01" class="modal">
+                
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="/Users/macbook/Downloads/mod3finalproject 2/pokemon-frontend/pictures/pokemon-logo-png.png" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                      
+                    <button type="submit">Login</button>
+            
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  
+                  </div>
+                </form>
+              </div>
+            
+            <script>
+            // Get the modal
+            let modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              // console.log(event)
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+
+            
+                
+        </div>
+        <div class="box2" style="background-color:rgb(83, 179, 28)">
+                
+        </div>
+
+    </div>
+    <div class="flex"></div>
+
+  <script defer type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="clearfix">
+    <div class="box" style="background-color:#bbb">
+    <h2>Box 1</h2>
+    <p>Some content, some content, some content</p>
+    </div>
+    <div class="box" style="background-color:#ccc">
+    <h2>Box 2</h2>
+    <p>Some content, some content, some content</p>
+    <p>Some content, some content, some content</p>
+    <p>Some content, some content, some content</p>
+    </div>
+  </div> -->
