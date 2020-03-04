@@ -1,6 +1,6 @@
 #dodger {
     background-color: rgb(0, 0, 0, 0);
-    background-image: url("/Users/alishah/Desktop/flatiron_school/final_project_mod3/mod-3-pokemon-project-frontend/pictures/Trainer.png");
+    background-image: url("/Users/macbook/Desktop/POKEMON_PROJECT_RESUME/mod-3-pokemon-project-frontend/pictures/Trainer.png");
     /* display: block; */
     /* height: 20px;
     position: absolute;
@@ -20,7 +20,7 @@
   }
   #game {
     /* background-color: rgb(22, 22, 22); */
-    background-image: url("/Users/alishah/Desktop/flatiron_school/final_project_mod3/mod-3-pokemon-project-frontend/pictures/map.png");
+    background-image: url("/Users/macbook/Desktop/POKEMON_PROJECT_RESUME/mod-3-pokemon-project-frontend/pictures/map.png");
     height: 600px;
     overflow: hidden;
     position: relative;
